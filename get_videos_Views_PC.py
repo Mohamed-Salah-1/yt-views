@@ -8,9 +8,9 @@ import random
 options = Options()
 options.headless = True
 
-driver = webdriver.Chrome(r"C:\ChromeDriver\chromedriver.exe", options=options)
+# driver = webdriver.Chrome(r"C:\ChromeDriver\chromedriver.exe", options=options)
 
-# driver = webdriver.Chrome('C:\\drivers\\chromedriver.exe', options=options)
+driver = webdriver.Chrome(options=options)
 
 videos = [
     "https://youtu.be/VuvTXqm0RN0",  # ازاى ابدأ - كيف أبدأ ؟ الجزء الأول
